@@ -314,7 +314,7 @@ code {
 
 .card {
     display: grid;
-    min-height: 395px !important;
+    min-height: 450px !important;
 }
 
 .card-header {
