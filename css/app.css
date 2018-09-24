@@ -1,0 +1,347 @@
+.badge,
+.btn,
+.progress {
+    border-radius: 0px;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.5;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    height: 90px;
+    background-color: transparent;
+    border: none;
+}
+
+/* @media(max-width: 599px) {
+    .navbar {
+        margin-bottom: 0px;
+        background-color: transparent;
+    }
+} */
+
+.navbar-nav>li {
+    display: table;
+}
+
+.navbar-nav>li>a {
+    height: 90px;
+    font-family: 'Exo', sans-serif;
+    margin-top: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.social-white>div>a:link,
+.social-white>div>a:active,
+.social-white>div>a:visited {
+    color: #FFFFFF !important;
+}
+
+.social-white>div>a:hover {
+    color: #2f74b2 !important;
+}
+
+.social-gray>div>a:link,
+.social-gray>div>a:active,
+.social-gray>div>a:visited {
+    color: #252525 !important;
+}
+
+.social-gray>div>a:hover {
+    color: #2f74b2 !important;
+}
+
+.no-margim {
+    margin: 0px !important;
+}
+
+.font-size-lg {
+    font-size: 3.5em;
+}
+
+.font-size-md {
+    font-size: 2.5em;
+}
+
+.font-size-sm {
+    font-size: 1.5em;
+}
+
+.font-size-xs {
+    font-size: 0.5em;
+}
+
+.row {
+    margin: 0px;
+}
+
+.badge-white {
+    color: #252525;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.text-white {
+    color: #FFFFFF !important;
+}
+
+.text-area-email {
+    height: 125px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #252525;
+}
+
+/* Custom page CSS
+  -------------------------------------------------- */
+
+/* Not required for template or sticky footer method. */
+
+body>.container {
+    padding: 60px 15px 0;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.fancy {
+    text-align: center;
+}
+
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    display: inline-flex;
+    border-top: 2px solid;
+    width: 80px;
+    vertical-align: middle;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+@media(max-width: 700px) {
+    .display-4 {
+        text-align: center;
+    }
+
+    .fancy span:before,
+    .fancy span:after {
+        content: "";
+        display: block;
+        border-top: none;
+        width: 80px;
+    }
+}
+
+.banner.banner-white {
+    background-color: #FFFFFF;
+}
+
+.banner.banner-gray {
+    background-color: #fafafa;
+}
+
+.banner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+.banner>.banner-heading {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.banner>.banner-body {}
+
+.banner>.banner-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner.banner-xs {
+    min-height: 50px;
+}
+
+.banner.banner-sm {
+    min-height: 100px;
+}
+
+.banner.banner-md {
+    min-height: 300px;
+}
+
+.banner.banner-lg {
+    min-height: 500px;
+}
+
+.banner-blue {
+    background-color: #573c7a;
+    color: #FFFFFF;
+}
+
+.banner-dark {
+    background-color: #252525;
+    color: #FFFFFF;
+}
+
+.banner-dark-gray {
+    background-color: #252525;
+    color: #FFFFFF;
+}
+
+.banner-backdrop {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding: 35px;
+    color: #FFFFFF;
+}
+
+.banner-backdrop.home {
+    background-image: url('../images/Depositphotos_188394110_xl-2015.jpg');
+    min-height: 600px;
+}
+
+.banner-backdrop.think {
+    background-image: url("https://inforchannel.com.br/wp-content/uploads/2017/04/data-analytics.jpg");
+}
+
+.banner-backdrop.lets {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SsLYSh45lizrfzvep/videoblocks-man-hand-writing-in-daily-notebook-on-wooden-table-background-with-office-details-man-putting-on-glasses-and-noting-creative-background-top-view-chroma-key_szau_ypbre_thumbnail-full01.png")
+}
+
+.banner-backdrop.home>.banner-heading {
+    margin-top: 5%;
+}
+
+.banner-backdrop.backdrop-opace::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(009, 009, 009, 0.7);
+    z-index: -999;
+}
+
+.banner-backdrop.backdrop-opace1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(000, 000, 000, 0.2);
+    z-index: -999;
+}
+
+.badge {
+    padding: 10px;
+    min-width: 150px;
+    font-size: 12pt;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.badge>.badge-percent {
+    display: none;
+}
+
+.skills-category {
+    margin-bottom: 25px;
+}
+
+.skills-category>.badge:hover>.badge-text {
+    display: none;
+    min-width: 120px;
+}
+
+.skills-category>.badge:hover>.badge-percent {
+    display: block;
+    min-width: 120px;
+}
+
+.card {
+    display: grid;
+}
+
+.card-header {
+    min-height: 200px;
+    background-color: transparent;
+    display: -ms-grid;
+    vertical-align: middle;
+}
+
+.card-header>img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-border-bottom {
+    border-bottom: 1px solid #e2e2e2;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+}
+
+.card-no-border {
+    border: none !important;
+}
+
+.image-card {
+    width: auto;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
