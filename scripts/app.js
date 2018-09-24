@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
 
     function changeHeightHeaderPortifolio() {
-        $("#header-portifolio").height($(window).height());
+        $("#header-portifolio").height($(window).outerHeight());
     }
 
     function navbarCustom() {

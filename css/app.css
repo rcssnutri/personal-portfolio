@@ -6,7 +6,8 @@
 
 body {
     background-color: #f4f4f4;
-    font-family: 'Archivo', sans-serif;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Quicksand', sans-serif;
     line-height: 1.5;
 }
 
@@ -218,7 +219,7 @@ code {
 }
 
 .banner-blue {
-    background-color: #573c7a;
+    background-color: #3366cc;
     color: #FFFFFF;
 }
 
@@ -247,12 +248,12 @@ code {
 }
 
 .banner-backdrop.home {
-    background-image: url('../images/Depositphotos_188394110_xl-2015.jpg');
+    background-image: url('../images/home-front.jpg');
     min-height: 600px;
 }
 
 .banner-backdrop.think {
-    background-image: url("https://inforchannel.com.br/wp-content/uploads/2017/04/data-analytics.jpg");
+    background-image: url("../images/perguntemecomo.jpg");
 }
 
 .banner-backdrop.lets {
@@ -313,6 +314,7 @@ code {
 
 .card {
     display: grid;
+    min-height: 395px !important;
 }
 
 .card-header {
